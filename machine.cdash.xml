@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <cdash>
+   <system>
+     <platform>Linux</platform>
+     <version>Debian</version>
+     <bits>32</bits>
+     <basedirectory>/home/cdash/build</basedirectory> 
+   </system>
+   <compiler>
+     <name>gcc</name>
+     <version>4.4.5</version> 
+     <generator>Unix Makefiles</generator> 
+   </compiler>
+   <cmake>
+     <version>2.8</version> 
+     <path>/usr/bin/cmake</path> 
+   </cmake>
+   <library>
+     <name>OpenGL</name>
+     <version>1.9.1</version>
+     <include>/usr/include</include>
+     <path>/usr/lib</path>
+   </library>
+   <program>
+     <name>git</name>
+     <version>1.7</version>
+     <path>/usr/bin/git</path>
+   </program>
+   <allowedproject>arktoolbox</allowedproject>
+ </cdash>
