@@ -7,7 +7,7 @@ This is a client configuration for cdash. It sets up a machine to talk to CDash 
 sudo su
 add user cdash
 su cdash
-git clone git@github.com:arktools/cdash-client ~/client
+git clone git://github.com/arktools/cdash-client.git ~/client
 crontab -e
 ```
 Example crontab
