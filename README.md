@@ -9,10 +9,12 @@ This is a client configuration for cdash. It sets up a machine to talk to CDash 
 sudo su
 add user cdash
 su cdash
-git clone git://github.com/arktools/cdash-client.git ~/client
 ```
 
 1. Clone the client repository. 
+``` bash
+git clone git://github.com/arktools/cdash-client.git ~/client
+```
 
 1. Set the properties in machine.cdash.xml.
 1. Set the properties in machine.ctest if different.
