@@ -7,7 +7,7 @@ This is a client configuration for cdash. It sets up a machine to talk to CDash 
 1. Setup cdash user.
 ``` bash
 sudo su
-add user cdash
+adduser cdash
 su cdash
 ```
 
