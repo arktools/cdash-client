@@ -27,4 +27,5 @@
      <path>/usr/bin/git</path>
    </program>
    <allowedproject>arktoolbox</allowedproject>
+   <allowedproject>biopython-lennax</allowedproject>
  </cdash>

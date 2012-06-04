@@ -1,12 +1,13 @@
 # These variables define the system
+set(CTEST_COMMAND "/usr/bin/ctest")
 set(CDASH_DASHBOARD_ROOT "/home/cdash/client")
-set(CDASH_SITENAME "l1")
+set(CDASH_SITENAME "w9")
 set(CDASH_SYSTEMNAME "Debian-32bits")
 set(CDASH_SITE_CONFIG_FILE "${CDASH_DASHBOARD_ROOT}/machine.cdash.xml")
 set(CDASH_TEMP_DIRECTORY "${CDASH_DASHBOARD_ROOT}/tmp")
 set(CTEST_EXECUTABLE "/usr/bin/ctest")
 set(CTEST_DROP_SITE "hsl.dynalias.com")
 set(CTEST_DROP_URL "/cdash/submit.php")
- 
+
 # Now include the common setup for cdash
 include(${CDASH_DASHBOARD_ROOT}/cdash_client_common_once.ctest)
