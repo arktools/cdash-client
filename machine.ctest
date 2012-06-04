@@ -7,6 +7,9 @@ set(CDASH_TEMP_DIRECTORY "${CDASH_DASHBOARD_ROOT}/tmp")
 set(CTEST_EXECUTABLE "/opt/local/bin/ctest")
 set(CTEST_DROP_SITE "hsl.dynalias.com")
 set(CTEST_DROP_URL "/cdash/submit.php")
+set(CTEST_SOURCE_DIRECTORY "${CDASH_TEMP_DIRECTORY}/dummysource")
+set(CTEST_BINARY_DIRECTORY "${CDASH_TEMP_DIRECTORY}/dummybin")
+set(CTEST_COMMAND "ctest")
  
 # Now include the common setup for cdash
 include(${CDASH_DASHBOARD_ROOT}/cdash_client_common_once.ctest)

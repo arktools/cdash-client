@@ -1,6 +1,4 @@
 # Everything below this line shouldn't be modified
-set(CTEST_SOURCE_DIRECTORY "${CDASH_TEMP_DIRECTORY}/dummysource")
-set(CTEST_BINARY_DIRECTORY "${CDASH_TEMP_DIRECTORY}/dummybin")
 set(CTEST_DROP_METHOD "http")
 set(CTEST_DROP_LOCATION ${CTEST_DROP_URL}?sitename=${CDASH_SITENAME}&systemname=${CDASH_SYSTEMNAME}&submitinfo=1)
 set(CTEST_DROP_SITE_CDASH true)
